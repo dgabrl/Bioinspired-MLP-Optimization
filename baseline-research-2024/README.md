@@ -22,7 +22,7 @@ Architecture and training parameters were adjusted based on scientific literatur
     * $n = n_{c}$
     * Resulting in an analytical range between 2 and 57 neurons.
 * **Architecture Depth:** Following *Krishnan (2021)*, we analyzed up to **three hidden layers**. While one layer is often sufficient, deeper architectures (up to 3 layers) were tested for comparison.
-* **Layer Optimization:** We used a greedy approach—varying the number of neurons in the current layer (between the input size of 28 and output size of 1) while keeping previous layers constant.
+* **Layer Optimization:** We used a greedy approach: varying the number of neurons in the current layer (between the input size of 28 and output size of 1) while keeping previous layers constant.
 * **Training Specs:** Stochastic Gradient Descent (SGD) for 2000 epochs with **Step Decay** for the learning rate.
 
 
