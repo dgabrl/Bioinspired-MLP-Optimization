@@ -45,6 +45,6 @@ These scripts were developed and tested in **Google Colab**. To reproduce the re
    ```
 2. **Database Configuration (Crucial):** Mount your Google Drive.
 * **Path:** Update the `pd.read_csv()` path to point to your `dados.csv` file.
-* **Features and Target:** Ensure you review the input (`x`) and output (`y`) definitions in the code. In these scripts, `y` is assigned to the first column (`class`) and `x` starts from the 3rd column onwards (`iloc[:, 2:]`). Adjust these indices if your dataset structure differs.
+* **Features and Target:** Ensure you review the input (`x`) and output (`y`) definitions in the code. In these scripts, `y` is assigned to the column `class` and `x` starts from the 3rd column onwards (`iloc[:, 2:]`). Adjust these indices if your dataset structure differs.
 
 3. **Execution:** Run the cells sequentially.
